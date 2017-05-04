@@ -1,0 +1,90 @@
+body {
+  min-width: 600px;
+  background:darkgray;
+  background-image:url("../tree.jpeg");
+  font-family: arial;
+}
+h1  {
+  padding: 15px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h2  {
+  padding: 10px;
+  font-size: x-large;
+  font-family: serif;
+}
+
+section table {
+ margin: 30px;
+ border: 2px;
+}
+
+footer p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  margin: 40px;
+}
+li  {
+  list-style-type: none;
+}
+.intro {
+  border: solid 10px yellow;
+  background-color: #d1d1d1;
+  border-radius: 30px;
+}
+.intro p {
+  margin: 30px;
+}
+.people {
+  background-color: gray;
+  border-radius: 20px;
+}
+.Adaptations {
+  background-color: darkgreen;
+  padding: 30px;
+}
+.people p {
+  display: inline-block;
+  vertical-align: top;
+}
+.people img {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.table-title {
+  background-color: white;
+}
+#frodo {
+  background-color: gray;
+}
+#sam {
+  background-color: darkgray;
+}
+#anduil{
+  background-color: lightgray;
+}
+#merry{
+  background-color: darkgray;
+}
+a:visited{
+  color:yellow;
+}
+a:hover{
+  color:green;
+}
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 1500px) {
+  body {
+    font-size: 1.5em;
+  }
+}
